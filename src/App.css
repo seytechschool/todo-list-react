@@ -1,8 +1,21 @@
 .App {
   text-align: center;
   background-color: skyblue;
-  height: 20vh;
-  width: 50vh;
+  height: 30vh;
+  width: 80vh;
+  margin-top: 20px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+h1,
+h3 {
+  padding: 20px;
+}
+.wrapper {
+  display: flex;
+}
+.checkbox {
+  width: 20%;
 }
 .linethru {
   text-decoration: line-through;
@@ -14,17 +27,36 @@ button {
 body {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
-  height: 90vh;
+  align-items: center;
+  height: 100vh;
   background-color: aquamarine;
+  background: linear-gradient(rgb(0, 140, 255), rgb(53, 49, 49));
 }
 ul {
   background-color: skyblue;
   padding: 30px;
 }
+.inputtext {
+  width: 60%;
+  padding: 7px;
+  border: green solid 1px;
+  border-radius: 5px;
+}
+.addBtn {
+  margin: 10px;
+}
 .inline {
+  padding: 100%;
   display: flex;
-  width: 100%;
+}
+.wrapperFordone {
+  background-color: rgb(235, 174, 184);
+  height: 30vh;
+  width: 60vh;
+  position: absolute;
+  right: 200px;
+  top: 20px;
+  border-radius: 20px;
 }
 .todo_item {
   color: rgb(93, 0, 243);
@@ -36,5 +68,16 @@ li {
   list-style-type: none;
   width: 50%;
   margin: auto;
-  font-size: 20px;
+  font-size: 30px;
+}
+
+.linethru {
+  text-decoration: line-through;
+  width: 100%;
+}
+#root {
+  margin-right: 50px;
+  float: left;
+  height: 100vh;
+  width: 150vh;
 }
